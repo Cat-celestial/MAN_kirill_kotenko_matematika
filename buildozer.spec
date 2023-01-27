@@ -40,7 +40,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3crystax==3.6,kivy
+requirements = python3crystax==3.6,kivy==2.0.0,kivymd,https://github.com/kivymd/archive/3274d62.zip,sdl2_ttf==2.0.15
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -56,7 +56,7 @@ presplash.filename = %(source.dir)s/photos/screensaver.png
 icon.filename = %(source.dir)s/photos/main_program_icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = portrait
+orientation = all
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
